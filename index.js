@@ -13,26 +13,26 @@ let Name;
 Name = `Мультипарадигменный язык программирования`;
 alert(`JS- ${Name}`);
 
-let NumberOne = 10;
-let NumberTwo = 2;
-result1 = NumberOne + NumberTwo;
+const numberOne = 10;
+const numberTwo = 2;
+let result = numberOne + numberTwo;
+alert(result);
+let result1 = numberOne - numberTwo;
 alert(result1);
-result1 = NumberOne - NumberTwo;
-alert(result1);
-result1 = NumberOne * NumberTwo;
-alert(result1);
-result1 = NumberOne / NumberTwo;
-alert(result1);
-
-let NumberA = 2;
-let NumberB = 5;
-result2 = NumberA ** NumberB;
+let result2 = numberOne * numberTwo;
 alert(result2);
+let result3 = numberOne / numberTwo;
+alert(result3);
+
+let numberA = 2;
+let numberB = 5;
+let result4 = numberA ** numberB;
+alert(result4);
 
 let c = 9;
 let b = 2;
-result3 = c % b;
-alert(result3);
+let result5 = c % b;
+alert(result5);
 
 let num = 1;
 num += 5;
@@ -45,21 +45,22 @@ alert(num);
 
 let age = prompt('Сколько вам лет?');
 alert(`Ваш возраст: ` + age);
-/*
+
 const user = {
-    name: 'Василий',
+    name: "Василий",
     age: 30,
     isAdmin: true,
 }
+
 let name = String('Василий');
 age = Number(30);
 let isAdmin = Boolean('true');
-user[cityOfRresidence] = 'Владивосток'; // "Добавление свойства объекту"
+user["city of residence"] = "Владивосток"; // "Добавление свойства объекту"
 user.age = 32; // "Изменение свойства объекту"
 delete user.cityOfRresidence; // "Удаление свойства объекта"
-*/
+console.log(user)
 let infoName = prompt(`Ваше имя?`);
-infoAge = prompt(`Ваш возраст`);
+let infoAge = prompt(`Ваш возраст`);
 alert(`Ваше имя: ${infoName}, Ваш возраст: ${infoAge}`);
 
 let userName = prompt('Как ваше имя?');
